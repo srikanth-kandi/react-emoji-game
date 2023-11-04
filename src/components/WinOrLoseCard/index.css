@@ -1,0 +1,120 @@
+.result-score-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.result-text {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+.score-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-text {
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.score-count {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-family: Roboto;
+  font-size: 32px;
+
+  font-weight: 700;
+  color: #6a59ff;
+}
+
+.play-again-button {
+  border: none;
+  color: #000000;
+  background-color: #ffce27;
+  border-radius: 14px;
+  padding: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.result-image {
+  width: 270px;
+}
+
+@media (max-width: 768px) {
+  .result-score-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .result-text {
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .score-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .score-text {
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .score-count {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 30px;
+
+    font-weight: 700;
+    color: #6a59ff;
+  }
+
+  .play-again-button {
+    border: none;
+    color: #000000;
+    background-color: #ffce27;
+    border-radius: 14px;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .result-image {
+    width: 180px;
+    order: -1;
+  }
+}
