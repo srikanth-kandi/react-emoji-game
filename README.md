@@ -1,3 +1,7 @@
+# Emoji Game using ReactJS ⚛
+
+Live demo - [https://srikanth-kandi.github.io/react-emoji-game/](https://srikanth-kandi.github.io/react-emoji-game/)
+
 In this project, let's build an **Emoji Game** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
